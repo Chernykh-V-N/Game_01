@@ -11,6 +11,7 @@ if gun_select = 0 // 0 - shotgun
 {
 	if gun_type = 0 // дефолтная модификация оружия
 	{
+		#region Дробовик обычный
 		scr_gunShooting				// == скрипт выстрела ==
 		(
 			10,									// отдача выстрела
@@ -28,9 +29,12 @@ if gun_select = 0 // 0 - shotgun
 		);
 		//obj_hero.x = obj_hero.x - lengthdir_x(recoil / 10, image_angle);
 		//obj_hero.y = obj_hero.y - lengthdir_y(recoil / 10, image_angle);
+		
+		#endregion
 	}
-	if gun_type = 1 // дефолтная модификация оружия
+	if gun_type = 1 // недефолтная модификация оружия
 	{
+		#region Дробовик необычный
 		if shotgun_mod_count > 0 // если заряжено больше нуля пуль
 		{
 			if ((mouse_check_button (mb_left)) and (firing_delay < 0))
@@ -54,12 +58,14 @@ if gun_select = 0 // 0 - shotgun
 				soundShotgun						// урон
 			);
 		}
+		#endregion
 		//obj_hero.x = obj_hero.x - lengthdir_x(recoil / 10, image_angle);
 		//obj_hero.y = obj_hero.y - lengthdir_y(recoil / 10, image_angle);
 	}
 }
 if gun_select = 1 // 1 - rifle
 {
+	#region Автомат обычный
 	if gun_type = 0 // дефолтная модификация оружия
 	{
 		scr_gunShooting				// == скрипт выстрела ==
@@ -80,6 +86,8 @@ if gun_select = 1 // 1 - rifle
 		//obj_hero.x = obj_hero.x - lengthdir_x(recoil / 20, image_angle);
 		//obj_hero.y = obj_hero.y - lengthdir_y(recoil / 20, image_angle);
 	}
+	#endregion
+	#region Автомата необычный
 	if gun_type = 1 // модификация
 	{
 		scr_gunShooting				// == скрипт выстрела ==
@@ -98,11 +106,14 @@ if gun_select = 1 // 1 - rifle
 			soundRifle						// урон
 		);
 	}
+	#endregion
 }
 if gun_select = 2 // 2 - sniper rifle
 {
+	
 	if gun_type = 0 // дефолтная модификация оружия
 	{
+		#region Снайперка обычная
 		scr_gunShooting				// == скрипт выстрела ==
 		(
 			16,									// отдача выстрела
@@ -120,9 +131,11 @@ if gun_select = 2 // 2 - sniper rifle
 		);
 		//obj_hero.x = obj_hero.x - lengthdir_x(recoil / 10, image_angle);
 		//obj_hero.y = obj_hero.y - lengthdir_y(recoil / 10, image_angle);
+		#endregion
 	}
 	if gun_type = 1 // модификация
 	{
+		#region Снайперка необычная 
 		scr_gunShooting				// == скрипт выстрела ==
 		(
 			16,									// отдача выстрела
@@ -138,8 +151,9 @@ if gun_select = 2 // 2 - sniper rifle
 			obj_gunHero.snrifle_mod_hpDamage,	// урон
 			soundSnrifle						// урон
 		);
-		//obj_hero.x = obj_hero.x - lengthdir_x(recoil / 10, image_angle);
-		//obj_hero.y = obj_hero.y - lengthdir_y(recoil / 10, image_angle);
+		obj_hero.x = obj_hero.x - lengthdir_x(recoil / 10, image_angle);
+		obj_hero.y = obj_hero.y - lengthdir_y(recoil / 10, image_angle);
+		#endregion
 	}
 }
 
