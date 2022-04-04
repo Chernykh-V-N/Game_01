@@ -29,4 +29,4 @@ firstBullet = 0; // переменная перваого попадания
 textDamagePos_x = 0;
 textDamagePos_y = -50;
 
-audio_play_sound(Sound_Spider_Steps_Grass, 2, 1);
+localSound_step = audio_play_sound(Sound_Spider_Steps_Grass, 2, 1);

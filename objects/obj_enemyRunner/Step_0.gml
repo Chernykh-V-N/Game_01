@@ -2,10 +2,7 @@
 // смерть противника
 if hp <= 0
 {
-	with(self)
-	{
-		audio_stop_sound(Sound_Spider_Steps_Grass);
-	}
+	audio_stop_sound(localSound_step);
 	
 	scr_enemy_death  // == скрипт смерти противника ==
 	(
