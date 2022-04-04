@@ -16,7 +16,7 @@ anim_heroRun = spr_runHero;
 anim_heroIdle = spr_idleHero;
 anim_heroRun_back = spr_runHero_back;
 anim_heroIdle_back = spr_idleHero_back;
-hero_animationSpeed = 0.3; // скорость анимации спрайтов гг
+hero_animationSpeed = 0.25; // скорость анимации спрайтов гг
 
 mask_index = spr_heroCollisionMovement;
 
@@ -97,6 +97,5 @@ audio_play_sound(Sound_Actor_Steps_Grass, 1, 1);
 #region Звук телепорта
 TeleportSound = Sound_Actor_Teleport;
 #endregion
-
 
 audio_listener_set_orientation (0,1,1,0,0,0,1);

@@ -1,7 +1,7 @@
 // смерть противника
 if hp <= 0
 {
-	audio_stop_sound(FlyingSound);
+	SCR_SoundDistancer(s_emit, Sound_Chertolet_Flying, 1, 200, 300, true, 0);
 	
 	scr_enemy_death  // == скрипт смерти противника ==
 	(
@@ -45,7 +45,7 @@ else
 {
 	alarm[3] = 1;
 		#region Звук телепорта
-		SCR_SoundDistancer(s_emit, Sound_Chertolet_Teleport, 1, 200, 300, false);
+		SCR_SoundDistancer(s_emit, Sound_Chertolet_Teleport, 1, 200, 300, false, 1);
 		#endregion
 }
 

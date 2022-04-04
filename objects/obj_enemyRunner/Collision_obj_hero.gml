@@ -20,4 +20,5 @@ else
 }
 obj_shakeHero.shake_magnitude = obj_shakeHero.shakePower;
 
+audio_stop_sound(localSound_step);
 instance_destroy();
