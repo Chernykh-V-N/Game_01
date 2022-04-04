@@ -35,14 +35,6 @@ firing_delayReload = 60 * 3;	// перезарядка
 radFire = 250;					// радиус стрельбы
 
 #region Звук полета
-//audio_falloff_set_model(audio_falloff_exponent_distance_clamped);
-//FlyingSound = audio_play_sound_at(Sound_Chertolet_Flying, obj_hero.x, obj_hero.y, 0, 100, 300, 1, true, 2);
 s_emit = audio_emitter_create();
-falloff_factor=1;
-falloff_ref=100;
-falloff_max=200;
-audio_emitter_position(s_emit,x,y,0);
-audio_emitter_falloff(s_emit,falloff_ref,falloff_max, 1);
-audio_falloff_set_model(audio_falloff_linear_distance_clamped);
-audio_play_sound_on(s_emit ,Sound_Chertolet_Flying, true, 3);
+SCR_SoundDistancer(s_emit, 1, 100, 200)
 #endregion
