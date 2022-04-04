@@ -282,6 +282,7 @@
     {"id":{"name":"obj_enemyJumper","path":"objects/obj_enemyJumper/obj_enemyJumper.yy",},"order":0,},
     {"id":{"name":"spr_chestShineEffect","path":"sprites/spr_chestShineEffect/spr_chestShineEffect.yy",},"order":3,},
     {"id":{"name":"spr_shaker_mainBody143","path":"sprites/spr_shaker_mainBody143/spr_shaker_mainBody143.yy",},"order":8,},
+    {"id":{"name":"Sound_SniperRifle_Shot_stealed","path":"sounds/Sound_SniperRifle_Shot_stealed/Sound_SniperRifle_Shot_stealed.yy",},"order":0,},
     {"id":{"name":"scr_enemy_death","path":"scripts/scr_enemy_death/scr_enemy_death.yy",},"order":4,},
     {"id":{"name":"spr_runHero_back27","path":"sprites/spr_runHero_back27/spr_runHero_back27.yy",},"order":4,},
     {"id":{"name":"spr_healthBar","path":"sprites/spr_healthBar/spr_healthBar.yy",},"order":1,},
@@ -442,6 +443,7 @@
     {"folderPath":"folders/Scripts/SCR_Gameplay/enemyScripts/damageByBullets.yy","order":5,"resourceVersion":"1.0","name":"damageByBullets","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sounds/Weapons.yy","order":1,"resourceVersion":"1.0","name":"Weapons","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sounds/Weapons/Automatic_Rifle.yy","order":1,"resourceVersion":"1.0","name":"Automatic_Rifle","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sounds/Weapons/Sniper_Rifle.yy","order":2,"resourceVersion":"1.0","name":"Sniper_Rifle","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

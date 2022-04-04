@@ -32,9 +32,12 @@ if gun_select = 0 and gun_type = 1
 	alarm[0] = shotgun_mod_kdDelay;	// начинаем заряжать магазин
 }
 
-soundRifle = 1;
-soundShotgun = 1;
-soundSnrifle = 1;
+#region Где брать звуки на каждый тип оружия 
+soundRifle = Sound_AutomaticRifle_Shot_stealed; 
+soundShotgun = Sound_SniperRifle_Shot_stealed;
+soundSnrifle = Sound_SniperRifle_Shot_stealed;
+
+#endregion
 
 // 1 - rifle
 // 0 тип
