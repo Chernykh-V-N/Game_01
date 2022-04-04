@@ -4,6 +4,7 @@ function scr_gunShooting(recoil_local, firing_delay_local, bullet_Obj, countBull
 {
 	if ((mouse_check_button (mb_left)) and (firing_delay < 0))
 	{
+		audio_play_sound(Sound_AutomaticRifle_Shot_stealed, 1, 0);
 		recoil = recoil_local;
 		firing_delay = firing_delay_local;
 		x_Diff = x - lengthdir_x(-1 * diffCount, image_angle);
