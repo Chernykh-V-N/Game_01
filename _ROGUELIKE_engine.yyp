@@ -445,6 +445,10 @@
     {"folderPath":"folders/Sounds/Weapons.yy","order":1,"resourceVersion":"1.0","name":"Weapons","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sounds/Weapons/Automatic_Rifle.yy","order":1,"resourceVersion":"1.0","name":"Automatic_Rifle","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sounds/Weapons/Sniper_Rifle.yy","order":2,"resourceVersion":"1.0","name":"Sniper_Rifle","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sounds/Creatures.yy","order":2,"resourceVersion":"1.0","name":"Creatures","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sounds/Creatures/Actor.yy","order":1,"resourceVersion":"1.0","name":"Actor","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sounds/Creatures/Spider.yy","order":2,"resourceVersion":"1.0","name":"Spider","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sounds/Creatures/Chertolet.yy","order":3,"resourceVersion":"1.0","name":"Chertolet","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
