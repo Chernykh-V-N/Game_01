@@ -33,3 +33,7 @@ textDamagePos_y = -50;
 firing_delay = 0;				// объявление переменной перезарядки
 firing_delayReload = 60 * 3;	// перезарядка
 radFire = 250;					// радиус стрельбы
+
+#region Звук полета
+FlyingSound = audio_play_sound(Sound_Chertolet_Flying, 2, 1);
+#endregion

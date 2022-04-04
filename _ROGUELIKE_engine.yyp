@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"Sound_Chertolet_Flying","path":"sounds/Sound_Chertolet_Flying/Sound_Chertolet_Flying.yy",},"order":0,},
     {"id":{"name":"spr_chest_shadow","path":"sprites/spr_chest_shadow/spr_chest_shadow.yy",},"order":1,},
     {"id":{"name":"spr_hpHeroBar","path":"sprites/spr_hpHeroBar/spr_hpHeroBar.yy",},"order":2,},
     {"id":{"name":"scr_pickupToHero","path":"scripts/scr_pickupToHero/scr_pickupToHero.yy",},"order":0,},
@@ -155,6 +156,7 @@
     {"id":{"name":"spr_en_bulletTrail_Easy","path":"sprites/spr_en_bulletTrail_Easy/spr_en_bulletTrail_Easy.yy",},"order":3,},
     {"id":{"name":"obj_spawnPoint","path":"objects/obj_spawnPoint/obj_spawnPoint.yy",},"order":7,},
     {"id":{"name":"spr_fontText_simple","path":"sprites/spr_fontText_simple/spr_fontText_simple.yy",},"order":9,},
+    {"id":{"name":"Sound_Chertolet_Teleport","path":"sounds/Sound_Chertolet_Teleport/Sound_Chertolet_Teleport.yy",},"order":1,},
     {"id":{"name":"obj_expEnemy_trail","path":"objects/obj_expEnemy_trail/obj_expEnemy_trail.yy",},"order":1,},
     {"id":{"name":"obj_item_book","path":"objects/obj_item_book/obj_item_book.yy",},"order":3,},
     {"id":{"name":"obj_displaySize","path":"objects/obj_displaySize/obj_displaySize.yy",},"order":1,},

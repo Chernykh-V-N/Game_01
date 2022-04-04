@@ -1,6 +1,8 @@
 // смерть противника
 if hp <= 0
 {
+	audio_stop_sound(FlyingSound);
+	
 	scr_enemy_death  // == скрипт смерти противника ==
 	(
 		death_Sprite,		// спрайт для частиц "разрушения" противника
@@ -42,6 +44,7 @@ if blinking = 0
 else
 {
 	alarm[3] = 1;
+	audio_play_sound(Sound_Chertolet_Teleport, 2, 0);
 }
 
 
