@@ -2,7 +2,7 @@
 // смерть противника
 if hp <= 0
 {
-	audio_stop_sound(localSound_step);
+	audio_stop_sound(soundSpider_Steps);
 	
 	scr_enemy_death  // == скрипт смерти противника ==
 	(
@@ -39,5 +39,7 @@ realY = y - pixH_bar/2;
 
 //move to hero
 scr_moveToHero(obj_hero, enemySpeed);
+
+audio_emitter_position(s_emit,x,y,0);
 
 
