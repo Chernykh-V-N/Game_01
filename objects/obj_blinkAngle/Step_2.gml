@@ -13,3 +13,7 @@ else
 	sprite_index = spr_blinkAngle;
 	canBlinkPlace = 1;
 }
+
+#region Звук
+audio_play_sound(Sound_Actor_Teleport, 1, 0);
+#endregion

@@ -251,6 +251,7 @@
     {"id":{"name":"obj_coins","path":"objects/obj_coins/obj_coins.yy",},"order":0,},
     {"id":{"name":"spr_bossHpBar","path":"sprites/spr_bossHpBar/spr_bossHpBar.yy",},"order":2,},
     {"id":{"name":"spr_moneyHUD","path":"sprites/spr_moneyHUD/spr_moneyHUD.yy",},"order":0,},
+    {"id":{"name":"Sound_Actor_Teleport","path":"sounds/Sound_Actor_Teleport/Sound_Actor_Teleport.yy",},"order":3,},
     {"id":{"name":"spr_selectBox","path":"sprites/spr_selectBox/spr_selectBox.yy",},"order":0,},
     {"id":{"name":"obj_bulletHero_rifle","path":"objects/obj_bulletHero_rifle/obj_bulletHero_rifle.yy",},"order":0,},
     {"id":{"name":"obj_tasksHUD","path":"objects/obj_tasksHUD/obj_tasksHUD.yy",},"order":4,},
