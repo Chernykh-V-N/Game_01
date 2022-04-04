@@ -1,0 +1,1 @@
+startDestroy = 1;

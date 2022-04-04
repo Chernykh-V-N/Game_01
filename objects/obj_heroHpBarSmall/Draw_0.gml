@@ -1,0 +1,2 @@
+draw_sprite_part(spr_healthBarHero, 1, 0, 0, pixW_bar, pixH_bar, obj_hero.realX, obj_hero.realY + 7);
+draw_sprite_part(spr_healthBarHero, 0, 0, 0, pixW_bar * (obj_hero.heroHp / obj_hero.maxHeroHp), pixH_bar, obj_hero.realX, obj_hero.realY + 7);

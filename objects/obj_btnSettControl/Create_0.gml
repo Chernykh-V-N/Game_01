@@ -1,0 +1,1 @@
+global.buttonNum = 0;

@@ -1,0 +1,1 @@
+draw_text (10, 10, string(view_get_wport(1)) + " x " + string(view_get_hport(1)));
