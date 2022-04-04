@@ -41,6 +41,8 @@ soundSnrifle = Sound_SniperRifle_Shot_stealed;
 #endregion
 
 
+
+
 // 1 - rifle
 // 0 тип
 rifle_hpDamage = 8;

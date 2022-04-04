@@ -14,23 +14,22 @@ if instance_exists(obj_enemyFind)
 	firing_delay = firing_delay - 1;
 	recoil = max(0, recoil - 1);
 
-	if firing_delay < 0
-	{
-		recoil = 5;
-		firing_delay = timeReload;
-		with (instance_create_layer(x, y, "Instances", obj_bulletHero_rifle))
-		{
-			speed = 7;
-			direction = other.image_angle + random_range(-3, 3);
-			image_angle = direction;
-		}
-		x = x - lengthdir_x(-12, image_angle);
-		y = y - lengthdir_y(-12, image_angle);
-		repeat (10)
-		{
-			instance_create_layer(x + random_range(-5, 5), y + random_range(-5, 5), "Instances", obj_boomFire);
-		}
-	}
+	scr_turretShooting				// == скрипт выстрела ==
+		(
+			5,									// отдача выстрела
+			timeReload,							// задержка выстрела
+			obj_bulletHero_rifle,				// объект пули
+			1,									// минимальное число пуль за один раз
+			1,									// максимальное число пуль за один раз
+			12,									// отдаления места выстрела от центра объекта оружия
+			7,									// скорость пули
+			3,									// разброс выстрелов
+			5,									// разброс партиклов выстрела
+			obj_boomFire,						// объект партиклов выстрела
+			obj_gunHero.shotgun_hpDamage,		// урон
+			obj_gunHero.soundRifle				// урон
+		);
+	
 
 	x = x - lengthdir_x(recoil, image_angle);
 	y = y - lengthdir_y(recoil, image_angle);
