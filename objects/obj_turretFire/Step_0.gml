@@ -27,7 +27,7 @@ if instance_exists(obj_enemyFind)
 			5,									// разброс партиклов выстрела
 			obj_boomFire,						// объект партиклов выстрела
 			obj_gunHero.shotgun_hpDamage,		// урон
-			SoundTurret							// урон
+			sound_shotTurret					// звук стрельбы
 		);
 	
 
