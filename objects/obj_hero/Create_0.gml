@@ -89,3 +89,7 @@ instance_create_layer(x, y, "shadow", obj_heroHpBarSmall); // мини бар х
 // шрифт игровой
 map_string = " AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz%.,+-*/0123456789()!:>$↑↓|•[]";
 global.textFont = font_add_sprite_ext(spr_fontText_border, map_string, false, -1);
+
+#region Звук ходьбы
+audio_play_sound(Sound_Actor_Steps_Grass, 1, 1);
+#endregion
