@@ -23,7 +23,8 @@ if gun_select = 0 // 0 - shotgun
 			17,									// разброс выстрелов
 			5,									// разброс партиклов выстрела
 			obj_boomFire,						// объект партиклов выстрела
-			obj_gunHero.shotgun_hpDamage		// урон
+			obj_gunHero.shotgun_hpDamage,		// урон
+			soundShotgun						// урон
 		);
 		//obj_hero.x = obj_hero.x - lengthdir_x(recoil / 10, image_angle);
 		//obj_hero.y = obj_hero.y - lengthdir_y(recoil / 10, image_angle);
@@ -49,7 +50,8 @@ if gun_select = 0 // 0 - shotgun
 				17,									// разброс выстрелов
 				5,									// разброс партиклов выстрела
 				obj_boomFire,						// объект партиклов выстрела
-				obj_gunHero.shotgun_mod_hpDamage	// урон
+				obj_gunHero.shotgun_mod_hpDamage,	// урон
+				soundShotgun						// урон
 			);
 		}
 		//obj_hero.x = obj_hero.x - lengthdir_x(recoil / 10, image_angle);
@@ -72,7 +74,8 @@ if gun_select = 1 // 1 - rifle
 			3,								// разброс выстрелов
 			5,								// разброс партиклов выстрела
 			obj_boomFire,					// объект партиклов выстрела
-			obj_gunHero.rifle_hpDamage		// урон
+			obj_gunHero.rifle_hpDamage,		// урон
+			soundRifle							// урон
 		);
 		//obj_hero.x = obj_hero.x - lengthdir_x(recoil / 20, image_angle);
 		//obj_hero.y = obj_hero.y - lengthdir_y(recoil / 20, image_angle);
@@ -91,7 +94,8 @@ if gun_select = 1 // 1 - rifle
 			3,								// разброс выстрелов
 			5,								// разброс партиклов выстрела
 			obj_boomFire,					// объект партиклов выстрела
-			obj_gunHero.rifle_mod_hpDamage	// урон
+			obj_gunHero.rifle_mod_hpDamage,	// урон
+			soundRifle						// урон
 		);
 	}
 }
@@ -111,7 +115,8 @@ if gun_select = 2 // 2 - sniper rifle
 			0,									// разброс выстрелов
 			5,									// разброс партиклов выстрела
 			obj_boomFire,						// объект партиклов выстрела
-			obj_gunHero.snrifle_hpDamage		// урон
+			obj_gunHero.snrifle_hpDamage,		// урон
+			soundSnrifle						// урон
 		);
 		//obj_hero.x = obj_hero.x - lengthdir_x(recoil / 10, image_angle);
 		//obj_hero.y = obj_hero.y - lengthdir_y(recoil / 10, image_angle);
@@ -130,7 +135,8 @@ if gun_select = 2 // 2 - sniper rifle
 			0,									// разброс выстрелов
 			5,									// разброс партиклов выстрела
 			obj_boomFire,						// объект партиклов выстрела
-			obj_gunHero.snrifle_mod_hpDamage	// урон
+			obj_gunHero.snrifle_mod_hpDamage,	// урон
+			soundSnrifle						// урон
 		);
 		//obj_hero.x = obj_hero.x - lengthdir_x(recoil / 10, image_angle);
 		//obj_hero.y = obj_hero.y - lengthdir_y(recoil / 10, image_angle);

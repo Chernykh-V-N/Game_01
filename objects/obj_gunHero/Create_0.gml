@@ -32,6 +32,10 @@ if gun_select = 0 and gun_type = 1
 	alarm[0] = shotgun_mod_kdDelay;	// начинаем заряжать магазин
 }
 
+soundRifle = 1;
+soundShotgun = 1;
+soundSnrifle = 1;
+
 // 1 - rifle
 // 0 тип
 rifle_hpDamage = 8;

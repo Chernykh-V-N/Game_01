@@ -1,4 +1,6 @@
-// Ресурсы скриптов были изменены для версии 2.3.0, подробности см. по адресу
+// _typeShield	  - тип урона
+//				0 - по противникку без щита
+//				1 - по противникку с щитом
 // https://help.yoyogames.com/hc/en-us/articles/360005277377
 function scr_damage_typeShield(_typeShield, _type_hpDamage)
 {
