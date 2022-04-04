@@ -46,6 +46,7 @@ if collision_ellipse(x - 100, y - 80, x + 100, y + 80, obj_hero, false, true)
 {
 	obj_hero.mSpeed = obj_hero.mSpeed - (obj_hero.mSpeed / 100) * coeffSlower;
 }
+
 /*else
 {
 	

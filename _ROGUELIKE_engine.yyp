@@ -31,6 +31,7 @@
     {"id":{"name":"spr_runHero","path":"sprites/spr_runHero/spr_runHero.yy",},"order":2,},
     {"id":{"name":"spr_hudUI","path":"sprites/spr_hudUI/spr_hudUI.yy",},"order":0,},
     {"id":{"name":"spr_item_centre_coffee","path":"sprites/spr_item_centre_coffee/spr_item_centre_coffee.yy",},"order":1,},
+    {"id":{"name":"Sound_Spider_Steps_Grass","path":"sounds/Sound_Spider_Steps_Grass/Sound_Spider_Steps_Grass.yy",},"order":0,},
     {"id":{"name":"spr_takeSkills","path":"sprites/spr_takeSkills/spr_takeSkills.yy",},"order":2,},
     {"id":{"name":"spr_healthBarHero","path":"sprites/spr_healthBarHero/spr_healthBarHero.yy",},"order":1,},
     {"id":{"name":"obj_enemyTraining","path":"objects/obj_enemyTraining/obj_enemyTraining.yy",},"order":4,},
