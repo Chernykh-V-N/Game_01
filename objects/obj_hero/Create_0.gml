@@ -93,3 +93,7 @@ global.textFont = font_add_sprite_ext(spr_fontText_border, map_string, false, -1
 #region Звук ходьбы
 audio_play_sound(Sound_Actor_Steps_Grass, 1, 1);
 #endregion
+
+#region Звук телепорта
+TeleportSound = Sound_Actor_Teleport;
+#endregion

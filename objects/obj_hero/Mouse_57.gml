@@ -14,6 +14,9 @@ if skillTake = 1 //blink
 				skillCan = 0;
 				maxKD = blinkKD;
 				alarm[0] = blinkKD;
+				#region Звук телепорта
+				audio_play_sound(TeleportSound, 1, 0);
+				#endregion
 			}
 			else
 			{
