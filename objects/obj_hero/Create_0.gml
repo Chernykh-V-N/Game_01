@@ -97,3 +97,6 @@ audio_play_sound(Sound_Actor_Steps_Grass, 1, 1);
 #region Звук телепорта
 TeleportSound = Sound_Actor_Teleport;
 #endregion
+
+
+audio_listener_set_orientation (0,0,1,0,0,0,1);

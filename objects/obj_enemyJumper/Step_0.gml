@@ -65,4 +65,4 @@ if point_distance(x, y, obj_hero.x, obj_hero.y) < radFire
 	}
 }
 
-audio_listener_position(x, y, 0);
+audio_emitter_position(s_emit,x,y,0);
