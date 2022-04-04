@@ -36,6 +36,8 @@ soundRifle = 1;
 soundShotgun = 1;
 soundSnrifle = 1;
 
+// jopa
+
 // 1 - rifle
 // 0 тип
 rifle_hpDamage = 8;
