@@ -39,3 +39,5 @@ realY = y - pixH_bar/2;
 
 //move to hero
 scr_moveToHero(obj_hero, enemySpeed);
+
+

@@ -36,5 +36,5 @@ radFire = 250;					// радиус стрельбы
 
 #region Звук полета
 s_emit = audio_emitter_create();
-SCR_SoundDistancer(s_emit, 1, 100, 200)
+SCR_SoundDistancer(s_emit, Sound_Chertolet_Flying, 1, 200, 300, true)
 #endregion

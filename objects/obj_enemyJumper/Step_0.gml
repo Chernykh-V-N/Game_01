@@ -44,7 +44,9 @@ if blinking = 0
 else
 {
 	alarm[3] = 1;
-	audio_play_sound(Sound_Chertolet_Teleport, 2, 0); //звук телепорта
+		#region Звук телепорта
+		SCR_SoundDistancer(s_emit, Sound_Chertolet_Teleport, 1, 200, 300, false);
+		#endregion
 }
 
 
