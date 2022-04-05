@@ -2,8 +2,14 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377
 function scr_damageGuns(_type_hpDamage)
 {
-		if obj_itemContainer.armReduction > 100 { minusArm = 100; }
-		else									{ minusArm = obj_itemContainer.armReduction; }
+		if obj_itemContainer.armReduction > 100
+		{
+			minusArm = 100;
+		}
+		else
+		{
+			minusArm = obj_itemContainer.armReduction;
+		}
 		
 		scr_enemyDamaging		// == скрипт урона по противнику ==
 		(

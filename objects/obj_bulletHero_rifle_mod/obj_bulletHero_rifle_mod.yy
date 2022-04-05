@@ -32,7 +32,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "gun_bullets",
-    "path": "folders/Objects/OBJ_Hero/OBJ_BulletHero/gun_bullets.yy",
+    "path": "folders/Objects/OBJ_Hero/gun_bullets/gun_bullets.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_bulletHero_rifle_mod",

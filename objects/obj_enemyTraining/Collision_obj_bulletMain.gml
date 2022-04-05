@@ -13,3 +13,5 @@ else
 {
 	scr_damage_typeShield(typeShield, other.type_hpDamage);
 }
+
+damageCount += other.type_hpDamage;

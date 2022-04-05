@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "gun_trails",
-    "path": "folders/Objects/OBJ_Hero/OBJ_BulletHero/gun_trails.yy",
+    "path": "folders/Objects/OBJ_Hero/gun_bullets/gun_trails.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_bulletTrail_shotgun",

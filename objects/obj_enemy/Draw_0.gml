@@ -6,11 +6,4 @@ scr_enemyGeneralDraw // == отрисовка основных элементо�
 	1						// отрисовка хп (1 - обычный, 2 - с щитом)
 );
 
-if (flash > 0)
-{
-	flash--;
-	shader_set(sh_flashing);
-	draw_self();
-	shader_reset();
-}
-
+scr_flashObj(sh_flashing); // мерцание

@@ -29,11 +29,4 @@ if turretTake = 1
 	draw_sprite(spr_turretCircle, 0, x, y);
 }
 
-// белое мерцание
-if (flash > 0)
-{
-	flash--;
-	shader_set(sh_flashing);
-	draw_self();
-	shader_reset();
-}
+scr_flashObj(sh_flashing); // мерцание
