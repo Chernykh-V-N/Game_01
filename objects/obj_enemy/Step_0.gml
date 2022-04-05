@@ -3,6 +3,38 @@ if place_meeting(x, y, obj_hero) // если есть коллизия прот�
 {
 	if canAttack = 1 // если переменная атаки равна 1
 	{
+		#region Звук атаки
+		
+		Sound_Of_Attack = choose(
+		Sound_Default_Attack_1,
+		Sound_Default_Attack_2,
+		Sound_Default_Attack_3,
+		Sound_Default_Attack_4);
+		
+		
+		//audio_play_sound(Sound_Default_Attack_1, 2, false);
+		
+		//number_sound = choose(0, 1, 2, 3);
+		
+		
+		//switch(number_sound)
+		//{
+		//case 0:
+		//audio_play_sound(Sound_Default_Attack_1, 2, false);
+		//break;
+		//case 1:
+		//audio_play_sound(Sound_Default_Attack_2, 2, false);
+		//break;
+		//case 2:
+		//audio_play_sound(Sound_Default_Attack_3, 2, false);
+		//break;
+		//case 3:
+		//audio_play_sound(Sound_Default_Attack_4, 2, false);
+		//break;
+		//}
+		
+		#endregion
+		
 		scr_enemy_meleeAttack // == скрипт милишной атаки противника по гг
 		( 
 			obj_hero,				// объект гг
@@ -11,7 +43,8 @@ if place_meeting(x, y, obj_hero) // если есть коллизия прот�
 			2,						// номер таймера используемого для отката атаки
 			reloadAttack,			// время отката атаки
 			damageCount,			// количество урона
-			obj_hero.hero_flashTime	// время белого мерцания при уроне
+			obj_hero.hero_flashTime,// время белого мерцания при уроне
+			Sound_Of_Attack
 		);
 	}
 }

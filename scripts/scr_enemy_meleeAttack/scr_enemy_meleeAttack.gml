@@ -1,7 +1,9 @@
 // Ресурсы скриптов были изменены для версии 2.3.0, подробности см. по адресу
 // https://help.yoyogames.com/hc/en-us/articles/360005277377
-function scr_enemy_meleeAttack(_hero_Obj, _gun_Obj, _shake_Obj, _alarm, _reloadAttack, _damageCount, _flash)
+function scr_enemy_meleeAttack(_hero_Obj, _gun_Obj, _shake_Obj, _alarm, _reloadAttack, _damageCount, _flash, Sound_)
 {
+	audio_play_sound(Sound_, 2, false);
+	
 	alarm[_alarm] = _reloadAttack;
 	if _hero_Obj.skillShield != 1
 	{

@@ -4,8 +4,10 @@ audio_emitter_position(s_emit, x, y, 0); // позиция звука
 // смерть противника
 if hp <= 0
 {
+	#region Звуки
 	audio_stop_sound(soundFlying);
-	
+	audio_play_sound(Sound_Chertolet_Destroy, 2, 0);
+	#endregion
 	scr_enemy_death  // == скрипт смерти противника ==
 	(
 		death_Sprite,		// спрайт для частиц "разрушения" противника
