@@ -1,4 +1,5 @@
-audio_listener_position(x, y, 0);
+
+audio_listener_position(x, y, 0); // ориентация объекта слушателя
 
 // rot
 rot += 1;

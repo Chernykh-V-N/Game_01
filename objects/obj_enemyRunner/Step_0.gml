@@ -1,4 +1,6 @@
 
+audio_emitter_position(s_emit, x, y, 0); // позиция звука
+
 // смерть противника
 if hp <= 0
 {
@@ -39,7 +41,5 @@ realY = y - pixH_bar/2;
 
 //move to hero
 scr_moveToHero(obj_hero, enemySpeed);
-
-audio_emitter_position(s_emit,x,y,0);
 
 

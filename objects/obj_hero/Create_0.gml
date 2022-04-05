@@ -1,5 +1,4 @@
 randomize();
-
 mSpeed = 1.35; // скорость бега гг
 hSpeed = 0;
 vSpeed = 0;
@@ -55,7 +54,7 @@ click = 1;
 // стартовые деньги гг
 heroMoney = 10; //irandom_range(5, 800);
 
-// skills vars
+// переменные скиллов
 maxKD = 0;
 // blink
 blinkKD = 60 * 5;
@@ -90,12 +89,8 @@ instance_create_layer(x, y, "shadow", obj_heroHpBarSmall); // мини бар х
 map_string = " AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz%.,+-*/0123456789()!:>$↑↓|•[]";
 global.textFont = font_add_sprite_ext(spr_fontText_border, map_string, false, -1);
 
-#region Звук ходьбы
-audio_play_sound(Sound_Actor_Steps_Grass, 1, 1);
-#endregion
 
-#region Звук телепорта
-TeleportSound = Sound_Actor_Teleport;
-#endregion
+audio_listener_set_orientation (0, 1, 1, 0, 0, 0, 0.2); // ориентация объекта слушателя
+audio_play_sound(Sound_Actor_Steps_Grass, 1, 1); // Звуки ходьбы
+TeleportSound = Sound_Actor_Teleport; // Звук телепорта
 
-audio_listener_set_orientation (0, 1, 1, 0, 0, 0, 0.2);

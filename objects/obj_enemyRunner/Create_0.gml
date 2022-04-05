@@ -31,8 +31,7 @@ textDamagePos_y = -50;
 
 //localSound_step = audio_play_sound(Sound_Spider_Steps_Grass, 2, 1);
 
-#region Звук шагов
+// звук шагов
 s_emit = audio_emitter_create();
-SCR_SoundDistancer(s_emit, 10, 300);
+scr_soundDistancer(s_emit, 10, 300);
 soundSpider_Steps = audio_play_sound_on(s_emit, Sound_Spider_Steps_Grass, true, 3);
-#endregion

@@ -1,3 +1,6 @@
+
+audio_emitter_position(s_emit, x, y, 0); // позиция звука
+
 // смерть противника
 if hp <= 0
 {
@@ -32,10 +35,6 @@ else
 	image_angle = 0;
 }
 
-//vars about hpbar
-//realX = x - pixW_bar/2;
-//realY = y - pixH_bar/2;
-
 //move to hero
 if blinking = 0
 {
@@ -44,13 +43,10 @@ if blinking = 0
 else
 {
 	alarm[3] = 1;
-		#region Звук телепорта
-		soundBlink = audio_play_sound_on(s_emit, Sound_Chertolet_Teleport, false, 3);
-		#endregion
+	soundBlink = audio_play_sound_on(s_emit, Sound_Chertolet_Teleport, false, 3); // звук телепорта
 }
 
-
-
+// стрельба
 if point_distance(x, y, obj_hero.x, obj_hero.y) < radFire
 {
 	firing_delay = firing_delay - 1;
@@ -66,5 +62,3 @@ if point_distance(x, y, obj_hero.x, obj_hero.y) < radFire
 		}
 	}
 }
-
-audio_emitter_position(s_emit,x,y,0);
