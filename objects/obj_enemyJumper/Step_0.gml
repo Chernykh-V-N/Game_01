@@ -1,7 +1,7 @@
 
 audio_emitter_position(s_emit, x, y, 0); // позиция звука
 
-// смерть противника
+#region смерть противника
 if hp <= 0
 {
 	#region Звуки
@@ -22,6 +22,7 @@ if hp <= 0
 		5					// дальность расположения частиц "разрушения" от центра объекта
 	);
 }
+#endregion
 
 if work = 1
 {
@@ -37,7 +38,7 @@ else
 	image_angle = 0;
 }
 
-//move to hero
+#region move to hero
 if blinking = 0
 {
 	scr_moveToHero(obj_hero, enemySpeed);
@@ -47,8 +48,9 @@ else
 	alarm[3] = 1;
 	soundBlink = audio_play_sound_on(s_emit, Sound_Chertolet_Teleport, false, 3); // звук телепорта
 }
+#endregion
 
-// стрельба
+#region стрельба
 if point_distance(x, y, obj_hero.x, obj_hero.y) < radFire
 {
 	firing_delay = firing_delay - 1;
@@ -56,6 +58,9 @@ if point_distance(x, y, obj_hero.x, obj_hero.y) < radFire
 	if firing_delay < 0
 	{
 		firing_delay = firing_delayReload;
+		
+		audio_play_sound_on(s_emit, Sound_Chertolet_Shot, false, 3);
+		
 		with (instance_create_layer(x, y - 14, "Instances", obj_enBullet_Easy))
 		{
 			speed = 4;
@@ -64,3 +69,6 @@ if point_distance(x, y, obj_hero.x, obj_hero.y) < radFire
 		}
 	}
 }
+
+
+#endregion

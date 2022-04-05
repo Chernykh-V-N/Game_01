@@ -35,7 +35,7 @@ if gun_select = 0 and gun_type = 1
 
 #region Где брать звуки на каждый тип оружия 
 soundRifle = Sound_AutomaticRifle_Shot_stealed; 
-soundShotgun = Sound_SniperRifle_Shot_stealed;
+soundShotgun = Sound_Shotgun_Shot;
 soundSnrifle = Sound_SniperRifle_Shot_stealed;
 
 #endregion
