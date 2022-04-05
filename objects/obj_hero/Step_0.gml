@@ -37,8 +37,7 @@ else
 	mSpeed = obj_itemContainer.walkSpeed;
 }
 
-#region Тормозим звук ходьбы при остановке
-if (vSpeed == 0) && (hSpeed == 0)
+if (vSpeed == 0) && (hSpeed == 0) // тормозим звук ходьбы при остановке
 {
 	audio_pause_sound(Sound_Actor_Steps_Grass);
 }
@@ -46,7 +45,6 @@ else
 {
 	audio_resume_sound(Sound_Actor_Steps_Grass);
 }
-#endregion
 
 // типа следы пыли от персонажа
 if (vSpeed != 0) or (hSpeed != 0)
