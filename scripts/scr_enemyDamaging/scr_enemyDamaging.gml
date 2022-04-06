@@ -24,4 +24,6 @@ function scr_enemyDamaging(gun_hpDamage, armor, textPos_x, textPos_y, particlesD
 	}
 	
 	damageCount_local = minusHp;
+	
+	audio_play_sound(Sound_Impact_Enemy, 2, false);
 }
