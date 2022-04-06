@@ -3,38 +3,13 @@ if place_meeting(x, y, obj_hero) // если есть коллизия прот�
 {
 	if canAttack = 1 // если переменная атаки равна 1
 	{
-		#region Звук атаки
-		
-		Sound_Of_Attack = choose(
-		Sound_Default_Attack_1,
-		Sound_Default_Attack_2,
-		Sound_Default_Attack_3,
-		Sound_Default_Attack_4);
-		
-		
-		//audio_play_sound(Sound_Default_Attack_1, 2, false);
-		
-		//number_sound = choose(0, 1, 2, 3);
-		
-		
-		//switch(number_sound)
-		//{
-		//case 0:
-		//audio_play_sound(Sound_Default_Attack_1, 2, false);
-		//break;
-		//case 1:
-		//audio_play_sound(Sound_Default_Attack_2, 2, false);
-		//break;
-		//case 2:
-		//audio_play_sound(Sound_Default_Attack_3, 2, false);
-		//break;
-		//case 3:
-		//audio_play_sound(Sound_Default_Attack_4, 2, false);
-		//break;
-		//}
-		
+		#region звук атаки
+			Sound_Of_Attack = choose(
+			Sound_Default_Attack_1,
+			Sound_Default_Attack_2,
+			Sound_Default_Attack_3,
+			Sound_Default_Attack_4);
 		#endregion
-		
 		scr_enemy_meleeAttack // == скрипт милишной атаки противника по гг
 		( 
 			obj_hero,				// объект гг
@@ -49,8 +24,7 @@ if place_meeting(x, y, obj_hero) // если есть коллизия прот�
 	}
 }
 
-// смерть противника
-if hp <= 0
+if hp <= 0	// смерть противника
 {
 	scr_enemy_death  // == скрипт смерти противника ==
 	(
@@ -67,8 +41,7 @@ if hp <= 0
 	);
 }
 
-// когда ломается
-if work = 1
+if work = 1	// когда ломается
 {
 	//thats for shaking by shooting some obj
 	image_angle += random_range(-1, 1);

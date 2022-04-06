@@ -139,8 +139,8 @@ if gun_select = 2 // снайперка
 			obj_gunHero.snrifle_mod_hpDamage,	// урон
 			soundSnrifle						// урон
 		);
-		obj_hero.x = obj_hero.x - lengthdir_x(recoil / 10, image_angle);
-		obj_hero.y = obj_hero.y - lengthdir_y(recoil / 10, image_angle);
+		//obj_hero.x = obj_hero.x - lengthdir_x(recoil / 10, image_angle);
+		//obj_hero.y = obj_hero.y - lengthdir_y(recoil / 10, image_angle);
 	}
 }
 
