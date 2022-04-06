@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 0,
-  "volume": 1.0,
+  "volume": 0.48,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "Sound_Shotgun_Shot.wav",
-  "duration": 5.7,
+  "duration": 0.621094,
   "parent": {
     "name": "Shotgun",
     "path": "folders/Sounds/Weapons/Shotgun.yy",

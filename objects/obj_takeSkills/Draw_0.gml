@@ -53,6 +53,10 @@ if point_in_rectangle(mouse_x, mouse_y,
 	{
 		if selectSkill < maxSkills
 		{
+			if global.dark = 0
+			{
+				audio_play_sound(Sound_Click, 2, false);
+			}
 			selectSkill += 1;
 		}
 	}
@@ -69,6 +73,10 @@ if point_in_rectangle(mouse_x, mouse_y,
 	{
 		if selectSkill > 1
 		{
+			if global.dark = 0
+			{
+				audio_play_sound(Sound_Click, 2, false);
+			}
 			selectSkill -= 1;
 		}
 	}

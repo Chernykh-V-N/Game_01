@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.8,
+  "volume": 0.4,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "Sound_SniperRifle_Shot_stealed.wav",
-  "duration": 3.6,
+  "soundFile": "Sound_Click.wav",
+  "duration": 0.194396,
   "parent": {
-    "name": "Sniper_Rifle",
-    "path": "folders/Sounds/Weapons/Sniper_Rifle.yy",
+    "name": "MouseIn",
+    "path": "folders/Sounds/Effects/MouseIn.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Sound_SniperRifle_Shot_stealed",
+  "name": "Sound_Click",
   "tags": [],
   "resourceType": "GMSound",
 }

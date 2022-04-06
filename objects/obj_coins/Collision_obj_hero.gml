@@ -8,5 +8,6 @@ with (instance_create_layer(obj_hero.x, obj_hero.y + random_range(textMinusPos_y
 	colorDamage = other.start_colorMinus;
 }
 
-//instance_create_layer(x, y - 10, "Instances", obj_coinsTakeEffect);
 instance_create_layer(x, y - 10, "hud", obj_coinsTakeEffect);
+
+audio_play_sound(Sound_PickUp_Money, 2, false);

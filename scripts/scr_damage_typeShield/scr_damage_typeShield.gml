@@ -12,4 +12,6 @@ function scr_damage_typeShield(_typeShield, _type_hpDamage)
 	{
 		scr_damageGuns_shields(_type_hpDamage);
 	}
+	
+	audio_play_sound(Sound_Impact_Enemy, 2, false);
 }
