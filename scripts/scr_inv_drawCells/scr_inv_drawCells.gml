@@ -25,7 +25,7 @@ function scr_inv_drawCells(sprCell_type, numberCell_type, cellCount, rowLenght, 
 			//
 			if point_in_rectangle(mouse_x, mouse_y, xx_2 - (_cellDiff / 2), yy_2 - (_cellDiff / 2), xx_2 + (_cellDiff / 2), yy_2 + (_cellDiff / 2))
 			{
-				audio_play_sound(Sound_MouseIn, 2, false);
+				//static play = audio_play_sound(Sound_MouseIn, 2, false);
 				draw_sprite(spr_infoItems, -1, xx_2 + 16, yy_2 - 16)
 				if invType = global.inventory_1 { draw_set_color(#E54444); }
 				if invType = global.inventory_2 { draw_set_color(#83E500); }
