@@ -191,6 +191,7 @@
     {"id":{"name":"obj_blinkAngle","path":"objects/obj_blinkAngle/obj_blinkAngle.yy",},"order":0,},
     {"id":{"name":"obj_adaptiveView_menu","path":"objects/obj_adaptiveView_menu/obj_adaptiveView_menu.yy",},"order":1,},
     {"id":{"name":"obj_heroHpBarSmall","path":"objects/obj_heroHpBarSmall/obj_heroHpBarSmall.yy",},"order":8,},
+    {"id":{"name":"scr_alphaCollision","path":"scripts/scr_alphaCollision/scr_alphaCollision.yy",},"order":0,},
     {"id":{"name":"spr_enemyJumper_gun","path":"sprites/spr_enemyJumper_gun/spr_enemyJumper_gun.yy",},"order":3,},
     {"id":{"name":"scr_inv_drawInfo","path":"scripts/scr_inv_drawInfo/scr_inv_drawInfo.yy",},"order":1,},
     {"id":{"name":"obj_cursorSize","path":"objects/obj_cursorSize/obj_cursorSize.yy",},"order":2,},
@@ -493,6 +494,7 @@
     {"folderPath":"folders/Sounds/Effects/MouseIn.yy","order":4,"resourceVersion":"1.0","name":"MouseIn","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/OBJ_Environment/Test.yy","order":8,"resourceVersion":"1.0","name":"Test","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/SPR_Environment/solid/Test.yy","order":8,"resourceVersion":"1.0","name":"Test","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/SCR_Collision/solidBlocks.yy","order":6,"resourceVersion":"1.0","name":"solidBlocks","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
