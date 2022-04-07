@@ -1,7 +1,10 @@
-// _drawShadow	- false/true - рисование тени
-// _drawSelf	- false/true - рисование спрайта объекта
-// _drawHp		- 1 - рисование хп бара для обычных противников
-//				| 2 - рисование хп бара для щитовых противников
+/// @function					scr_enemyGeneralDraw(_drawShadow, _shadowSpr, _shadow_x, _shadow_y, _drawSelf, _drawHp);
+/// @param  {real}	_drawShadow	Рисование спрайта тени
+/// @param  {index}	_shadowSpr	Спрайт тени
+/// @param  {real}	_shadow_x	Координата x спрайта тени
+/// @param  {real}	_shadow_y	Координата x спрайта тени
+/// @param  {real}	_drawSelf	Рисование себя
+/// @param  {real}	_drawHp		Тип рисование хп бара
 
 function scr_enemyGeneralDraw(_drawShadow, _shadowSpr, _shadow_x, _shadow_y, _drawSelf, _drawHp)
 {
