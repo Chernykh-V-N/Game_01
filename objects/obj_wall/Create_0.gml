@@ -6,7 +6,7 @@ local_width = 64;
 
 with (instance_create_layer(x, y + 28, "shadow", obj_staticShadow))
 {
-	sprite_index = spr_wall_shadow;
+	sprite_index = spr_shadow_wall;
 	image_index = 2;
 	image_speed = 0;
 	image_alpha = 0.3;
