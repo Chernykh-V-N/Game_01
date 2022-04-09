@@ -22,6 +22,8 @@ dist = 30;
 pressCreate = 0;
 can_create = 1;
 
+opened = 0;
+
 alarm[0] = irandom_range(0, 100);
 
 with (instance_create_layer(x, y + 13, "shadow", obj_staticShadow))

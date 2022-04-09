@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "Sound_Actor_Teleport.wav",
-  "duration": 0.981333,
+  "duration": 2.128458,
   "parent": {
     "name": "Actor",
     "path": "folders/Sounds/Creatures/Actor.yy",

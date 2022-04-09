@@ -1,13 +1,17 @@
-if sprite_index != spr_chest_opened
+if opened = 0
 {
 	if collision_circle(x, y - 6, dist_activate, obj_hero, false, true) and obj_hero.heroMoney >= new_costOfChest
 	{
 		scaleResize = 1.25;
 		
-		sprite_index = spr_chest_opened;
+		//sprite_index = spr_chest_opened;
 		costDraw = 0;
+		opened = 1;
+		
+		audio_play_sound(Sound_PickUp_Chest, 2, false);
 		
 		obj_hero.heroMoney -= new_costOfChest; // отнимаем бабки
+		alarm[1] = 50;
 		
 		with (instance_create_layer(obj_hero.x, obj_hero.y + random_range(textMinusPos_y - 5, textMinusPos_y + 5), "shadow", obj_damageCount))
 		{
@@ -20,15 +24,6 @@ if sprite_index != spr_chest_opened
 		with (obj_chest)
 		{
 			new_costOfChest = round(costOfChest * global.countOpen);
-		}
-	
-		// чота
-		dir = obj_gunHero.image_angle;
-		instance_create_layer(x + lengthdir_x(dist, dir), (y + lengthdir_y(dist, dir)), "Instances", randomItems);
-		with (instance_create_layer(x + lengthdir_x(dist, dir), (y + lengthdir_y(dist, dir)), "Instances", obj_coinsTakeEffect))
-		{
-			image_xscale = 1.5;	
-			image_yscale = 1.5;	
 		}
 	
 		with (pressCreate)

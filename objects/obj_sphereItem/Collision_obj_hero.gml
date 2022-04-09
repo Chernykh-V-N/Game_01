@@ -8,4 +8,5 @@ if global.canTake_sphere = 1
 		alarm[0] = 1;
 	}
 	instance_destroy();
+	audio_play_sound(Sound_PickUp_Sphere, 2, false);
 }

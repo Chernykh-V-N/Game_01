@@ -1,5 +1,5 @@
 
-if sprite_index != spr_chest_opened
+if opened = 0
 {
 	if collision_circle(x, y - 6, dist_activate, obj_hero, false, true)
 	{

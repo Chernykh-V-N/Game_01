@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.8,
+  "volume": 0.25,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "Sound_AutomaticRifle_Shot_stealed.wav",
-  "duration": 1.352063,
+  "duration": 1.33925,
   "parent": {
     "name": "Automatic_Rifle",
     "path": "folders/Sounds/Weapons/Automatic_Rifle.yy",

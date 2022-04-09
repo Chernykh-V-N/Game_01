@@ -4,4 +4,5 @@ if shotgun_mod_count < shotgun_mod_countMax
 {
 	shotgun_mod_count += 1;
 	alarm[0] = shotgun_mod_kdDelay * (shotgun_mod_kdCoeff + (shotgun_mod_count * shotgun_mod_coeffNumber));
+	audio_play_sound(Sound_Shotgun_Reload, 2, false);
 }
