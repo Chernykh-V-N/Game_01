@@ -22,6 +22,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1342.0,"y":1465.0,"resourceVersion":"1.0","name":"inst_24AB26ED","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_wall_test_v","path":"objects/obj_wall_test_v/obj_wall_test_v.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1856.0,"y":1376.0,"resourceVersion":"1.0","name":"inst_35C1E67","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_wall_test","path":"objects/obj_wall_test/obj_wall_test.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1856.0,"y":1376.0,"resourceVersion":"1.0","name":"inst_6929508E","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"test_obj_wall_1","path":"objects/test_obj_wall_1/test_obj_wall_1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1440.0,"y":1344.0,"resourceVersion":"1.0","name":"inst_739BDB3","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":-100100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"hud","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":-100000,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"shadow","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
@@ -816,6 +817,7 @@
     {"name":"inst_6561E901","path":"rooms/r_game/r_game.yy",},
     {"name":"inst_35C1E67","path":"rooms/r_game/r_game.yy",},
     {"name":"inst_6929508E","path":"rooms/r_game/r_game.yy",},
+    {"name":"inst_739BDB3","path":"rooms/r_game/r_game.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

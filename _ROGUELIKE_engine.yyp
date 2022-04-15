@@ -171,6 +171,7 @@
     {"id":{"name":"Sound_Click","path":"sounds/Sound_Click/Sound_Click.yy",},"order":1,},
     {"id":{"name":"obj_spawnPoint","path":"objects/obj_spawnPoint/obj_spawnPoint.yy",},"order":7,},
     {"id":{"name":"spr_fontText_simple","path":"sprites/spr_fontText_simple/spr_fontText_simple.yy",},"order":9,},
+    {"id":{"name":"test_wall_spr_1_1","path":"sprites/test_wall_spr_1_1/test_wall_spr_1_1.yy",},"order":1,},
     {"id":{"name":"Sound_Chertolet_Teleport","path":"sounds/Sound_Chertolet_Teleport/Sound_Chertolet_Teleport.yy",},"order":1,},
     {"id":{"name":"obj_expEnemy_trail","path":"objects/obj_expEnemy_trail/obj_expEnemy_trail.yy",},"order":1,},
     {"id":{"name":"obj_item_book","path":"objects/obj_item_book/obj_item_book.yy",},"order":3,},
@@ -287,6 +288,7 @@
     {"id":{"name":"scr_sphere_dropChance","path":"scripts/scr_sphere_dropChance/scr_sphere_dropChance.yy",},"order":2,},
     {"id":{"name":"obj_barTimeTurret","path":"objects/obj_barTimeTurret/obj_barTimeTurret.yy",},"order":3,},
     {"id":{"name":"Sound_Chertolet_Shot","path":"sounds/Sound_Chertolet_Shot/Sound_Chertolet_Shot.yy",},"order":3,},
+    {"id":{"name":"test_obj_wall_1","path":"objects/test_obj_wall_1/test_obj_wall_1.yy",},"order":0,},
     {"id":{"name":"Sound_Default_Attack_1","path":"sounds/Sound_Default_Attack_1/Sound_Default_Attack_1.yy",},"order":0,},
     {"id":{"name":"spr_shaker_mainBody141","path":"sprites/spr_shaker_mainBody141/spr_shaker_mainBody141.yy",},"order":6,},
     {"id":{"name":"Sound_Shotgun_Reload","path":"sounds/Sound_Shotgun_Reload/Sound_Shotgun_Reload.yy",},"order":2,},
@@ -501,6 +503,7 @@
     {"folderPath":"folders/Objects/OBJ_Environment/Test.yy","order":8,"resourceVersion":"1.0","name":"Test","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/SPR_Environment/solid/Test.yy","order":8,"resourceVersion":"1.0","name":"Test","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/SCR_Collision/solidBlocks.yy","order":6,"resourceVersion":"1.0","name":"solidBlocks","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/TEST_OBJECTS.yy","order":12,"resourceVersion":"1.0","name":"TEST_OBJECTS","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
