@@ -1,5 +1,5 @@
 {
-  "bboxMode": 0,
+  "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
   "origin": 0,
@@ -9,7 +9,7 @@
   "swfPrecision": 2.525,
   "bbox_left": 0,
   "bbox_right": 63,
-  "bbox_top": 20,
+  "bbox_top": 59,
   "bbox_bottom": 63,
   "HTile": false,
   "VTile": false,
@@ -101,8 +101,8 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "Test",
-    "path": "folders/Sprites/SPR_Environment/solid/Test.yy",
+    "name": "Sprites",
+    "path": "folders/Stadium/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "test_wall_spr_1_1",
