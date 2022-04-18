@@ -9,7 +9,7 @@ image_index = 0;
 local_height = sprite_get_height(sprite_index);
 local_width = sprite_get_width(sprite_index);
 
-with (instance_create_layer(x, y + 75, "shadow", obj_staticShadow))
+with (instance_create_layer(x, y + 21, "shadow", obj_staticShadow))
 {
 	sprite_index = spr_shadow_wall;
 	image_index = 2;
