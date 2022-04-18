@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "test_wall_spr_1_1",
-    "path": "sprites/test_wall_spr_1_1/test_wall_spr_1_1.yy",
+    "name": "wall_spr_1_0",
+    "path": "sprites/wall_spr_1_0/wall_spr_1_0.yy",
   },
   "solid": true,
   "visible": true,
@@ -31,11 +31,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Stadium/Objects.yy",
+    "name": "Brick_Walls",
+    "path": "folders/Stadium/Objects/Walls/Brick_Walls.yy",
   },
   "resourceVersion": "1.0",
-  "name": "test_obj_wall_1",
+  "name": "obj_wall_1_0",
   "tags": [],
   "resourceType": "GMObject",
 }
