@@ -18,17 +18,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_depthSorter_solid","path":"objects/obj_depthSorter_solid/obj_depthSorter_solid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_depthSorter_solid_low","path":"objects/obj_depthSorter_solid_low/obj_depthSorter_solid_low.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_enemyFind","path":"objects/obj_enemyFind/obj_enemyFind.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "gun_bullets",
-    "path": "folders/Objects/OBJ_Hero/gun_bullets/gun_bullets.yy",
+    "name": "control_depth",
+    "path": "folders/Objects/OBJ_ControlObjects/control_depth.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_bulletMain",
+  "name": "obj_depthSorter_solid_low",
   "tags": [],
   "resourceType": "GMObject",
 }
