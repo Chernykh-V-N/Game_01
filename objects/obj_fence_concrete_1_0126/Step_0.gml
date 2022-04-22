@@ -3,7 +3,7 @@
 
 if collision_rectangle(
 x - ((local_width/2) - 3),
-y - (local_height - 60),
+y - local_height,
 x + ((local_width/2) - 3),
 y - 3,
 obj_hero, true, true)

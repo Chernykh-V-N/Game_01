@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"7c142987-aff8-4f24-8a65-653f32341c52","path":"sprites/spr_bench_with_barbell_barbell/spr_bench_with_barbell_barbell.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7c142987-aff8-4f24-8a65-653f32341c52","path":"sprites/spr_bench_with_barbell_barbell/spr_bench_with_barbell_barbell.yy",},"LayerId":{"name":"7c17e02e-6fde-4f8a-9bd0-ad78466fcb0a","path":"sprites/spr_bench_with_barbell_barbell/spr_bench_with_barbell_barbell.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_bench_with_barbell_barbell","path":"sprites/spr_bench_with_barbell_barbell/spr_bench_with_barbell_barbell.yy",},"resourceVersion":"1.0","name":"7c142987-aff8-4f24-8a65-653f32341c52","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7c142987-aff8-4f24-8a65-653f32341c52","path":"sprites/spr_bench_with_barbell_bench199/spr_bench_with_barbell_bench199.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7c142987-aff8-4f24-8a65-653f32341c52","path":"sprites/spr_bench_with_barbell_bench199/spr_bench_with_barbell_bench199.yy",},"LayerId":{"name":"7c17e02e-6fde-4f8a-9bd0-ad78466fcb0a","path":"sprites/spr_bench_with_barbell_bench199/spr_bench_with_barbell_bench199.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_bench_with_barbell_bench199","path":"sprites/spr_bench_with_barbell_bench199/spr_bench_with_barbell_bench199.yy",},"resourceVersion":"1.0","name":"7c142987-aff8-4f24-8a65-653f32341c52","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_bench_with_barbell_barbell","path":"sprites/spr_bench_with_barbell_barbell/spr_bench_with_barbell_barbell.yy",},
+    "spriteId": {"name":"spr_bench_with_barbell_bench199","path":"sprites/spr_bench_with_barbell_bench199/spr_bench_with_barbell_bench199.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"6f62d212-fe1b-4cba-89f9-67d8429aee86","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7c142987-aff8-4f24-8a65-653f32341c52","path":"sprites/spr_bench_with_barbell_barbell/spr_bench_with_barbell_barbell.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6f62d212-fe1b-4cba-89f9-67d8429aee86","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7c142987-aff8-4f24-8a65-653f32341c52","path":"sprites/spr_bench_with_barbell_bench199/spr_bench_with_barbell_bench199.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 13,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_bench_with_barbell_barbell","path":"sprites/spr_bench_with_barbell_barbell/spr_bench_with_barbell_barbell.yy",},
+    "parent": {"name":"spr_bench_with_barbell_bench199","path":"sprites/spr_bench_with_barbell_bench199/spr_bench_with_barbell_bench199.yy",},
     "resourceVersion": "1.4",
-    "name": "spr_bench_with_barbell_barbell",
+    "name": "spr_bench_with_barbell_bench199",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Stadium/Sprites/SomeStuff.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_bench_with_barbell_barbell",
+  "name": "spr_bench_with_barbell_bench199",
   "tags": [],
   "resourceType": "GMSprite",
 }

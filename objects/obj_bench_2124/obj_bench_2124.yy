@@ -34,7 +34,7 @@
     "path": "folders/Stadium/Objects/SomeStuff.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_bench_with_barbell_bench",
+  "name": "obj_bench_2124",
   "tags": [],
   "resourceType": "GMObject",
 }
