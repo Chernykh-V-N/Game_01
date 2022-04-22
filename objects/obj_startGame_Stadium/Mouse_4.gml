@@ -9,4 +9,4 @@ if global.dark = 0
 	audio_play_sound(Sound_Click, 2, false);
 }
 
-scr_loadRoom_Stadium();
+scr_loadRoom();
