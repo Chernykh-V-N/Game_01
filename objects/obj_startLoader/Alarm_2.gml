@@ -1,2 +1,2 @@
-room_goto(r_game);
+room_goto(roomNow);
 alarm[1] = 1;

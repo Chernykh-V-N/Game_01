@@ -370,7 +370,6 @@
     {"id":{"name":"obj_enemy_shield","path":"objects/obj_enemy_shield/obj_enemy_shield.yy",},"order":0,},
     {"id":{"name":"spr_shield101","path":"sprites/spr_shield101/spr_shield101.yy",},"order":1,},
     {"id":{"name":"obj_cursor_main","path":"objects/obj_cursor_main/obj_cursor_main.yy",},"order":4,},
-    {"id":{"name":"obj_startLoader_Stadium","path":"objects/obj_startLoader_Stadium/obj_startLoader_Stadium.yy",},"order":0,},
     {"id":{"name":"spr_turretBody","path":"sprites/spr_turretBody/spr_turretBody.yy",},"order":1,},
     {"id":{"name":"spr_runHero_back","path":"sprites/spr_runHero_back/spr_runHero_back.yy",},"order":3,},
     {"id":{"name":"obj_bulletMain","path":"objects/obj_bulletMain/obj_bulletMain.yy",},"order":6,},
