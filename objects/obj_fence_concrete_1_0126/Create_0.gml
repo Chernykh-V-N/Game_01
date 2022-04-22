@@ -19,4 +19,4 @@ with (instance_create_layer(x, y + 21, "shadow", obj_staticShadow))
 }
 */
 
-Wall_Create(sprite_index, spr_ladder_shadow, x, y);
+Wall_Create(sprite_index, spr_ladder_concrete, x, y);

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_bench_with_barbell_barbell",
-    "path": "sprites/spr_bench_with_barbell_barbell/spr_bench_with_barbell_barbell.yy",
+    "name": "spr_bench_with_barbell_bench199",
+    "path": "sprites/spr_bench_with_barbell_bench199/spr_bench_with_barbell_bench199.yy",
   },
   "solid": true,
   "visible": true,
@@ -34,7 +34,7 @@
     "path": "folders/Stadium/Objects/SomeStuff.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_bench_with_barbell_barbell",
+  "name": "obj_bench_with_barbell_bench125",
   "tags": [],
   "resourceType": "GMObject",
 }
