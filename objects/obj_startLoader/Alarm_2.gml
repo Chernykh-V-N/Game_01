@@ -6,7 +6,7 @@ if roomNow = r_game
 }
 if roomNow = Stadium_Play
 {
-	x = r_game1_X;
-	y = r_game1_Y;
+	x = r_game2_X;
+	y = r_game2_Y;
 }
 alarm[1] = 1;
