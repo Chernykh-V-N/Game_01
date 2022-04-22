@@ -55,7 +55,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 15,
-    "yorigin": 11,
+    "yorigin": 15,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_bench_with_barbell_barbell","path":"sprites/spr_bench_with_barbell_barbell/spr_bench_with_barbell_barbell.yy",},
