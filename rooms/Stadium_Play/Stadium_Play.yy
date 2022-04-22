@@ -487,6 +487,8 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_wall_2_v","path":"objects/obj_wall_2_v/obj_wall_2_v.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2259.0,"y":2774.0,"resourceVersion":"1.0","name":"inst_348281D0","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_wall_2_v","path":"objects/obj_wall_2_v/obj_wall_2_v.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2259.0,"y":2803.0,"resourceVersion":"1.0","name":"inst_2D435CB2","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_wall_2","path":"objects/obj_wall_2/obj_wall_2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2259.0,"y":2832.0,"resourceVersion":"1.0","name":"inst_6616DD8D","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_bench_with_barbell_bench","path":"objects/obj_bench_with_barbell_bench/obj_bench_with_barbell_bench.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":352.0,"resourceVersion":"1.0","name":"inst_3E7985DF","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_bench_with_barbell_barbell","path":"objects/obj_bench_with_barbell_barbell/obj_bench_with_barbell_barbell.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":352.0,"resourceVersion":"1.0","name":"inst_43853383","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"Soccer","path":"sprites/Soccer/Soccer.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1696.0,"y":320.0,"resourceVersion":"1.0","name":"graphic_8B6794D","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -969,6 +971,8 @@
     {"name":"inst_348281D0","path":"rooms/Stadium_Play/Stadium_Play.yy",},
     {"name":"inst_2D435CB2","path":"rooms/Stadium_Play/Stadium_Play.yy",},
     {"name":"inst_6616DD8D","path":"rooms/Stadium_Play/Stadium_Play.yy",},
+    {"name":"inst_3E7985DF","path":"rooms/Stadium_Play/Stadium_Play.yy",},
+    {"name":"inst_43853383","path":"rooms/Stadium_Play/Stadium_Play.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

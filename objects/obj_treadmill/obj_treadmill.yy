@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_depthSorter_solid",
-    "path": "objects/obj_depthSorter_solid/obj_depthSorter_solid.yy",
+    "name": "obj_depthSorter_solid_low",
+    "path": "objects/obj_depthSorter_solid_low/obj_depthSorter_solid_low.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

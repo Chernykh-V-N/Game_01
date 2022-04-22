@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_ladder",
-    "path": "sprites/spr_ladder/spr_ladder.yy",
+    "name": "spr_bench_with_barbell_barbell",
+    "path": "sprites/spr_bench_with_barbell_barbell/spr_bench_with_barbell_barbell.yy",
   },
   "solid": true,
   "visible": true,
@@ -25,7 +25,6 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
@@ -35,7 +34,7 @@
     "path": "folders/Stadium/Objects/SomeStuff.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_ladder",
+  "name": "obj_bench_with_barbell_barbell",
   "tags": [],
   "resourceType": "GMObject",
 }

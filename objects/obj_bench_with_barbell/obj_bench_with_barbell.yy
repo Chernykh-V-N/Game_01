@@ -1,15 +1,12 @@
 {
-  "spriteId": {
-    "name": "spr_ladder",
-    "path": "sprites/spr_ladder/spr_ladder.yy",
-  },
+  "spriteId": null,
   "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_depthSorter_solid_low",
-    "path": "objects/obj_depthSorter_solid_low/obj_depthSorter_solid_low.yy",
+    "name": "obj_depthSorter_solid",
+    "path": "objects/obj_depthSorter_solid/obj_depthSorter_solid.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,7 +22,6 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
@@ -35,7 +31,7 @@
     "path": "folders/Stadium/Objects/SomeStuff.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_ladder",
+  "name": "obj_bench_with_barbell",
   "tags": [],
   "resourceType": "GMObject",
 }
