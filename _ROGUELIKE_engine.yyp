@@ -122,7 +122,6 @@
     {"id":{"name":"spr_fence_concrete_1_3_shadow","path":"sprites/spr_fence_concrete_1_3_shadow/spr_fence_concrete_1_3_shadow.yy",},"order":7,},
     {"id":{"name":"scr_loadRoom_Stadium","path":"scripts/scr_loadRoom_Stadium/scr_loadRoom_Stadium.yy",},"order":1,},
     {"id":{"name":"spr_cursor_2871","path":"sprites/spr_cursor_2871/spr_cursor_2871.yy",},"order":4,},
-    {"id":{"name":"Sprite200","path":"sprites/Sprite200/Sprite200.yy",},"order":16,},
     {"id":{"name":"scr_drawIconBuff","path":"scripts/scr_drawIconBuff/scr_drawIconBuff.yy",},"order":3,},
     {"id":{"name":"obj_boomFire","path":"objects/obj_boomFire/obj_boomFire.yy",},"order":0,},
     {"id":{"name":"Sound_Chertolet_Destroy","path":"sounds/Sound_Chertolet_Destroy/Sound_Chertolet_Destroy.yy",},"order":2,},
