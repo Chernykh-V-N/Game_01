@@ -245,6 +245,7 @@
     {"id":{"name":"obj_item_card","path":"objects/obj_item_card/obj_item_card.yy",},"order":1,},
     {"id":{"name":"obj_treadmill_1_1","path":"objects/obj_treadmill_1_1/obj_treadmill_1_1.yy",},"order":4,},
     {"id":{"name":"spr_chestSpawner","path":"sprites/spr_chestSpawner/spr_chestSpawner.yy",},"order":6,},
+    {"id":{"name":"Test_Van_Run_Big","path":"sprites/Test_Van_Run_Big/Test_Van_Run_Big.yy",},"order":5,},
     {"id":{"name":"obj_grassPlace","path":"objects/obj_grassPlace/obj_grassPlace.yy",},"order":0,},
     {"id":{"name":"spr_loadTime","path":"sprites/spr_loadTime/spr_loadTime.yy",},"order":7,},
     {"id":{"name":"spr_cursor_28","path":"sprites/spr_cursor_28/spr_cursor_28.yy",},"order":1,},

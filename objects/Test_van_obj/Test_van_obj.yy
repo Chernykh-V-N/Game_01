@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Test_Van_Run",
-    "path": "sprites/Test_Van_Run/Test_Van_Run.yy",
+    "name": "Test_Van_Run_Big",
+    "path": "sprites/Test_Van_Run_Big/Test_Van_Run_Big.yy",
   },
   "solid": true,
   "visible": true,
